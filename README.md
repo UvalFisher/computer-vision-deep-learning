@@ -18,6 +18,26 @@ A YOLOv8 workflow was used for lunar-crater object detection, including raster/i
 - Default training: mAP@0.5 approximately **0.42**
 - Tuned training: mAP@0.5 approximately **0.44**
 
+## Visualizations
+
+### CNN classification performance
+
+The classification experiments compare the performance of the CNN models and illustrate the improvement achieved through architecture refinement.
+
+![CNN classification performance](assets/cnn_performance.png)
+
+### YOLOv8 crater detection
+
+Example crater detections produced by the YOLOv8 object-detection workflow.
+
+![YOLOv8 lunar crater detection](assets/yolo_crater_detection.png)
+
+### YOLO training performance
+
+Training and evaluation results for the crater-detection model, including the metrics used to assess object-detection performance.
+
+![YOLOv8 training results](assets/yolo_training_results.png)
+
 ## Technologies
 
 Python · PyTorch · torchvision · NumPy · pandas · Matplotlib · scikit-learn · YOLOv8 · Rasterio · Pillow
